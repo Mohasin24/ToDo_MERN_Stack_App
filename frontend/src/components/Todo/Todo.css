@@ -1,0 +1,32 @@
+.todo-form{
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+}
+
+.todo-form input{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(185, 184, 184, 0.495);
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 10px 0 0 0;
+}
+
+.todo-form button{
+    width: 100px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #0780f0;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 0 0 10px 0;
+}
+
+.todo-form button:active{
+    background-color: #0054a2;
+}
